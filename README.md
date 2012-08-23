@@ -33,6 +33,10 @@ After the page load, the src attribute of the images remain like:
 - photo_@1.5.png is the name assigned for the 1.5 pixel ratio displays.
 - photo_@2.png is the name assigned for the 2 pixel ratio displays.
 
+## EXAMPLE
+
+[HPDD.js Example](http://magarcia.github.com/hddp.js/example/)
+
 ## LICENSE
 
 Copyright (c) 2012 Martin Garcia <martin@thingsofgeek.com>
