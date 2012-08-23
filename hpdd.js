@@ -27,6 +27,10 @@ with retina display, easily.
 */
 
 (function(window, undefined) {
+
+    // Enable strict mode
+    "use strict";
+    
     document = window.document;
 
     // Make HPDD object
