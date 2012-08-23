@@ -11,7 +11,7 @@ tutorials for bring compatibility to these displays in css. But, what happens
 with our old friend, the img tag? I tried to find a solution to make img tags
 compatible with retina display, easily.
 
-# USE
+## USE
 
 Import the hpdd.js in your html and add the class **hpdd** in all
 images that you what make high pixel density display support.
@@ -33,7 +33,7 @@ After the page load, the src attribute of the images remain like:
 - photo_@1.5.png is the name assigned for the 1.5 pixel ratio displays.
 - photo_@2.png is the name assigned for the 2 pixel ratio displays.
 
-# LICENSE
+## LICENSE
 
 Copyright (c) 2012 Martin Garcia <martin@thingsofgeek.com>
 
