@@ -35,7 +35,7 @@ After the page load, the src attribute of the images remain like:
 
 ## EXAMPLE
 
-[HPDD.js Example](http://magarcia.github.com/hddp.js/example/)
+[HPDD.js Example](http://magarcia.github.com/hpdd.js/example/)
 
 ## LICENSE
 
