@@ -1,74 +1,48 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <title>Hddp.js by magarcia</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>hpdd.js by magarcia</title>
 
-  <link rel="stylesheet" href="stylesheets/styles.css">
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <!--[if lt IE 9]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
-<body>
-  <div class="wrapper">
-    <header>
-      <h1>Hddp.js</h1>
-      <p>
-        HPDD.js (High Pixel Density Display) is a solution to make IMG tags compatible with retina display, easily.
-      </p>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>hpdd.js</h1>
+        <p>HPDD.js (High Pixel Density Display) is a solution to make IMG tags compatible with retina display, easily.</p>
 
-      <p class="view">
-        <a href="https://github.com/magarcia/hddp.js">
-          View the Project on GitHub
-          <small>magarcia/hddp.js</small>
-        </a>
-      </p>
+        <p class="view"><a href="https://github.com/magarcia/hpdd.js">View the Project on GitHub <small>magarcia/hpdd.js</small></a></p>
 
-      <ul>
-        <li>
-          <a href="https://github.com/magarcia/hddp.js/zipball/master">
-            Download <strong>ZIP File</strong>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/magarcia/hddp.js/tarball/master">
-            Download <strong>TAR Ball</strong>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/magarcia/hddp.js">
-            View On
-            <strong>GitHub</strong>
-          </a>
-        </li>
-      </ul>
-    </header>
-    <section>
-      <h1>HPDD.js</h1>
 
-      <p>
-        Nowadays we can found more and more products with high pixel density displays,
-famous <em>Retina Display</em>
-        by Apple and other devices from other companies
+        <ul>
+          <li><a href="https://github.com/magarcia/hpdd.js/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/magarcia/hpdd.js/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/magarcia/hpdd.js">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>HPDD.js</h1>
+
+<p>Nowadays we can found more and more products with high pixel density displays,
+famous <em>Retina Display</em> by Apple and other devices from other companies
 like Samsung Galaxy Nexus or Sony Xperia S. Exists a lot of sites, blogs and
 tutorials for bring compatibility to these displays in css. But, what happens
 with our old friend, the img tag? I tried to find a solution to make img tags
-compatible with retina display, easily.
-      </p>
+compatible with retina display, easily.</p>
 
-      <h2>USE</h2>
+<h2>USE</h2>
 
-      <p>
-        Import the hpdd.js in your html and add the class
-        <strong>hpdd</strong>
-        in all
-images that you what make high pixel density display support.
-      </p>
+<p>Import the hpdd.js in your html and add the class <strong>hpdd</strong> in all
+images that you what make high pixel density display support.</p>
 
-      <pre><code>&lt;html&gt;
+<pre><code>&lt;html&gt;
     &lt;head&gt;
         &lt;script src="hpdd.js" type="text/javascript"&gt;&lt;/script&gt;
     &lt;/head&gt;
@@ -78,83 +52,54 @@ images that you what make high pixel density display support.
 &lt;/html&gt;
 </code></pre>
 
-      <p>
-        After the page load, the src attribute of the images remain like:
-      </p>
+<p>After the page load, the src attribute of the images remain like: </p>
 
-      <pre><code>&lt;img src="photo_@2x.png" class="hpdd"/&gt;</code></pre>
+<pre><code>&lt;img src="photo_@2x.png" class="hpdd"/&gt;
+</code></pre>
 
-      <ul>
-        <li>
-          photo.png is the name assigned for the 1 pixel ratio displays or lower.
-        </li>
-        <li>
-          photo_@1.5.png is the name assigned for the 1.5 pixel ratio displays.
-        </li>
-        <li>
-          photo_@2.png is the name assigned for the 2 pixel ratio displays.
-        </li>
-      </ul>
+<ul>
+<li>photo.png is the name assigned for the 1 pixel ratio displays or lower.</li>
+<li>
+<a href="mailto:photo_@1.5.png">photo_@1.5.png</a> is the name assigned for the 1.5 pixel ratio displays.</li>
+<li>
+<a href="mailto:photo_@2.png">photo_@2.png</a> is the name assigned for the 2 pixel ratio displays.</li>
+</ul><h2>LICENSE</h2>
 
-      <h2>EXAMPLE</h2>
+<p>Copyright (c) 2012 Martin Garcia <a href="mailto:martin@thingsofgeek.com">martin@thingsofgeek.com</a></p>
 
-      <p>
-        <a href="example/">HPDD.js Example</a>
-      </p>
-      <h2>LICENSE</h2>
-
-      <p>
-        Copyright (c) 2012 Martin Garcia
-        <a href="mailto:martin@thingsofgeek.com">martin@thingsofgeek.com</a>
-      </p>
-
-      <p>
-        Permission is hereby granted, free of charge, to any person obtaining a copy of
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
 the Software without restriction, including without limitation the rights to
 use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
 the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
-      </p>
+subject to the following conditions:</p>
 
-      <p>
-        The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-      </p>
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
 
-      <p>
-        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
 FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-      </p>
-    </section>
-    <footer>
-      <p>
-        This project is maintained by
-        <a href="https://github.com/magarcia">magarcia</a>
-      </p>
-      <p>
-        <small>
-          Hosted on GitHub Pages &mdash; Theme by
-          <a href="https://github.com/orderedlist">orderedlist</a>
-        </small>
-      </p>
-    </footer>
-  </div>
-  <script src="javascripts/scale.fix.js"></script>
-  <script type="text/javascript">
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/magarcia">magarcia</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
-  <script type="text/javascript">
+          <script type="text/javascript">
             try {
               var pageTracker = _gat._getTracker("UA-34309564-1");
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
 
-</body>
+  </body>
 </html>
